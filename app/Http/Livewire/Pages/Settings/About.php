@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Livewire\Pages\Settings;
+
+use Livewire\Component;
+
+class About extends Component
+{
+    
+    public function render()
+    {
+        return view('livewire.pages.settings.about');
+    }
+}

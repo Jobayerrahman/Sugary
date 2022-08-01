@@ -1,0 +1,13 @@
+$(document).ready(function() { $("#pricerange").ionRangeSlider({ skin: "square", type: "double", grid: !0, min: 0, max: 1e3, from: 200, to: 800, prefix: "$" }) });
+$(document).ready(function() {
+    $("#dimensionrange").ionRangeSlider({
+        skin: "square",
+        type: "double",
+        grid: !0,
+        min: 0,
+        max: 1e3,
+        from: 55,
+        to: 1290,
+        prefix: "$"
+    });
+});
